@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const text = document.getElementById('text');
 text.addEventListener('DOMContentLoaded', function(e) {
-  text.textContent = "This is really cool!"
-})
+  text.textContent = "This is really cool!";
+});
