@@ -1,5 +1,5 @@
 // Your code goes here
-const t = document.getElementById('text');
-text.addEventListener('DOMContentLoaded', function(e) {
-  text.textContent = "This is really cool!";
+document.addEventListener("DOMContentLoaded", function() {
+  text = document.getElementById('text')
+  text.innerHtml = "This is really cool!";
 });
